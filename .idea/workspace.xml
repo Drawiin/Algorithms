@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0003eea2-01ee-43c5-a937-24bd2e11bad8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dynamic/LongestPalindrome.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/dynamic/LongestPalindromeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/hashmaps/LongestConsecutive.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/hashmaps/LongestConsecutiveTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.CourseScheduleTest.executor": "Run",
+    "Gradle.LongestConsecutiveTest.executor": "Run",
     "Gradle.LongestPalindromeTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,11 +70,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="hashmaps" />
       <recent name="dynamic" />
       <recent name="graphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LongestPalindromeTest">
+  <component name="RunManager" selected="Gradle.LongestConsecutiveTest">
     <configuration name="CourseScheduleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -88,6 +90,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;graphs.CourseScheduleTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LongestConsecutiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hashmaps.LongestConsecutiveTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -124,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LongestConsecutiveTest" />
         <item itemvalue="Gradle.LongestPalindromeTest" />
         <item itemvalue="Gradle.CourseScheduleTest" />
       </list>
