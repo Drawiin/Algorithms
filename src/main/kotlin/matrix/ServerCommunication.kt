@@ -12,18 +12,18 @@ class ServerCommunication {
         val serversPerRow = mutableMapOf<Int, Int>()
         var totalConnectedServers = 0
 
-        for (i in grid.indices) {
-            for (j in grid[i].indices) {
-                if (grid[i][j] == 1) {
-                    serversPerColumn[j] = serversPerColumn.getOrDefault(j, 0) + 1
-                    serversPerRow[i] = serversPerRow.getOrDefault(i, 0) + 1
+        for (row in grid.indices) {
+            for (column in grid[row].indices) {
+                if (grid[row][column] == 1) {
+                    serversPerColumn[column] = serversPerColumn.getOrDefault(column, 0) + 1
+                    serversPerRow[row] = serversPerRow.getOrDefault(row, 0) + 1
                 }
             }
         }
 
-        for (i in grid.indices) {
-            for (j in grid[i].indices) {
-                if (grid[i][j] == 1 && (serversPerColumn[j]!! > 1 || serversPerRow[i]!! > 1)) {
+        for (row in grid.indices) {
+            for (column in grid[row].indices) {
+                if (grid[row][column] == 1 && (serversPerColumn[column]!! > 1 || serversPerRow[row]!! > 1)) {
                     totalConnectedServers++
                 }
             }
