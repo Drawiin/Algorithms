@@ -1,4 +1,4 @@
-package dynamic
+package strings
 
 import com.drawiin.dynamic.LongestPalindrome
 import org.junit.jupiter.api.Assertions.*

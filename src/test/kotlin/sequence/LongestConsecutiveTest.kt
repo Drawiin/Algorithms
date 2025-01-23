@@ -1,4 +1,4 @@
-package hashmaps
+package sequence
 
 import com.drawiin.hashmaps.LongestConsecutive
 import org.junit.jupiter.api.Assertions.*
