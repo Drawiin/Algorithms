@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0003eea2-01ee-43c5-a937-24bd2e11bad8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/matrix/ServerCommunication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/matrix/ServerCommunicationTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/sets/CarCapacity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/strings/PatternOrderValidator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/sets/CarCapacityTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/strings/PatternOrderValidatorTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dynamic/LongestPalindrome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/strings/LongestPalindrome.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/hashmaps/LongestConsecutive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sequence/LongestConsecutive.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/dynamic/LongestPalindromeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/strings/LongestPalindromeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/hashmaps/LongestConsecutiveTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/sequence/LongestConsecutiveTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -60,9 +57,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.CarCapacityTest.executor": "Run",
     "Gradle.CourseScheduleTest.executor": "Run",
     "Gradle.LongestConsecutiveTest.executor": "Run",
     "Gradle.LongestPalindromeTest.executor": "Run",
+    "Gradle.PatternOrderValidatorTest.executor": "Run",
     "Gradle.ServerCommunicationTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -81,14 +80,15 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="strings" />
+      <recent name="sets" />
       <recent name="matrix" />
       <recent name="hashmaps" />
       <recent name="dynamic" />
-      <recent name="graphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ServerCommunicationTest">
-    <configuration name="CourseScheduleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.PatternOrderValidatorTest">
+    <configuration name="CarCapacityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -101,7 +101,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;graphs.CourseScheduleTest&quot;" />
+            <option value="&quot;sets.CarCapacityTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -160,6 +160,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="PatternOrderValidatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;strings.PatternOrderValidatorTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ServerCommunicationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -186,10 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PatternOrderValidatorTest" />
+        <item itemvalue="Gradle.CarCapacityTest" />
         <item itemvalue="Gradle.ServerCommunicationTest" />
         <item itemvalue="Gradle.LongestConsecutiveTest" />
         <item itemvalue="Gradle.LongestPalindromeTest" />
-        <item itemvalue="Gradle.CourseScheduleTest" />
       </list>
     </recent_temporary>
   </component>
