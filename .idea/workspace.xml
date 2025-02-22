@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0003eea2-01ee-43c5-a937-24bd2e11bad8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/sets/CarCapacity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/strings/PatternOrderValidator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/sets/CarCapacityTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/strings/PatternOrderValidatorTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kelements/TopKElementsFrequency.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kelements/TopKElementsFrequencyTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -63,6 +61,7 @@
     "Gradle.LongestPalindromeTest.executor": "Run",
     "Gradle.PatternOrderValidatorTest.executor": "Run",
     "Gradle.ServerCommunicationTest.executor": "Run",
+    "Gradle.TopKElementsFrequencyTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -72,7 +71,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/viniciusguimaraes/Projects/Algorithms/src/main/kotlin/Main.kt"
+    "onboarding.tips.debug.path": "/Users/viniciusguimaraes/Projects/Algorithms/src/main/kotlin/Main.kt",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -80,14 +80,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="kelements" />
       <recent name="strings" />
       <recent name="sets" />
       <recent name="matrix" />
       <recent name="hashmaps" />
-      <recent name="dynamic" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PatternOrderValidatorTest">
+  <component name="RunManager" selected="Gradle.TopKElementsFrequencyTest">
     <configuration name="CarCapacityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,30 +126,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;hashmaps.LongestConsecutiveTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestPalindromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;dynamic.LongestPalindromeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -208,13 +184,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="TopKElementsFrequencyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;kelements.TopKElementsFrequencyTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TopKElementsFrequencyTest" />
         <item itemvalue="Gradle.PatternOrderValidatorTest" />
         <item itemvalue="Gradle.CarCapacityTest" />
         <item itemvalue="Gradle.ServerCommunicationTest" />
         <item itemvalue="Gradle.LongestConsecutiveTest" />
-        <item itemvalue="Gradle.LongestPalindromeTest" />
       </list>
     </recent_temporary>
   </component>
