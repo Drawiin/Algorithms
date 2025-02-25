@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0003eea2-01ee-43c5-a937-24bd2e11bad8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kelements/TopKElementsFrequency.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kelements/TopKElementsFrequencyTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/strings/EncodeDecodeStrings.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/strings/EncodeDecodeStringsTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -57,6 +57,8 @@
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.CarCapacityTest.executor": "Run",
     "Gradle.CourseScheduleTest.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.EncodeDecodeStringsTest.executor": "Run",
     "Gradle.LongestConsecutiveTest.executor": "Run",
     "Gradle.LongestPalindromeTest.executor": "Run",
     "Gradle.PatternOrderValidatorTest.executor": "Run",
@@ -79,15 +81,18 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="kelements" />
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="strings" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="strings" />
+      <recent name="kelements" />
       <recent name="sets" />
       <recent name="matrix" />
       <recent name="hashmaps" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TopKElementsFrequencyTest">
+  <component name="RunManager" selected="Gradle.EncodeDecodeStringsTest">
     <configuration name="CarCapacityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -112,7 +117,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LongestConsecutiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EncodeDecodeStringsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -125,7 +130,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hashmaps.LongestConsecutiveTest&quot;" />
+            <option value="&quot;strings.EncodeDecodeStringsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -210,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EncodeDecodeStringsTest" />
         <item itemvalue="Gradle.TopKElementsFrequencyTest" />
         <item itemvalue="Gradle.PatternOrderValidatorTest" />
         <item itemvalue="Gradle.CarCapacityTest" />
         <item itemvalue="Gradle.ServerCommunicationTest" />
-        <item itemvalue="Gradle.LongestConsecutiveTest" />
       </list>
     </recent_temporary>
   </component>
